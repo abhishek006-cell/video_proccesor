@@ -166,5 +166,5 @@ if st.button("🚀 Create & Play Video", use_container_width=True):
         except Exception as e:
             st.error(f"An error occurred: {e}")
     else:
-        st.warning("Please ensure images are uploaded and audio is 'Loaded and Ready'.")
+        st.warning("Please ensure images are uploaded and an audio file is loaded .")
         
